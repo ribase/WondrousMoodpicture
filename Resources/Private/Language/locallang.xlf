@@ -9,14 +9,11 @@
 			<trans-unit id="flux.standard.description">
 				<source>Description can be entered in LLL file locallang.xlf of extension test</source>
 			</trans-unit>
-			<trans-unit id="flux.example">
-				<source>Example element</source>
+			<trans-unit id="flux.moodpicture">
+				<source>Moodpicture</source>
 			</trans-unit>
-			<trans-unit id="flux.example.description">
-				<source>Small example element</source>
-			</trans-unit>
-			<trans-unit id="flux.example.fields.settings.helloWorld">
-				<source>Example input</source>
+			<trans-unit id="flux.moodpicture.description">
+				<source>Moodpicture with Menu</source>
 			</trans-unit>
 		</body>
 	</file>
