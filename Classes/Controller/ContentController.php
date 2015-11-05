@@ -4,7 +4,7 @@ namespace Wondrous\Moodpicture\Controller;
 /***************************************************************
  *  Copyright notice
  *
- *  (c) 2015 Esther Furger <ef@d2c.ch>
+ *  (c) 2015 Sebastian Thadewald sebastian@wondrous.ch>
  *
  *  All rights reserved
  *
