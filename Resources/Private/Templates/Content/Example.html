@@ -24,6 +24,23 @@
 	</f:section>
 
 	<f:section name="Main">
+		<div class="moodarea-with-menu">
+			<f:for each="{v:content.resources.fal(field: 'settings.images')}" as="image">
+				<f:image treatIdAsReference="TRUE" src="{image.id}" alt="{image.title}" title="{f:if(condition: image.description, then: '{image.title}: ', else: '{image.title}')}{image.description}" class="responsive-image" style="margin:auto;display:block" width="100%" />
+			</f:for>
+			<div class="menu-from-moodarea">
+				<h3 class="headline">
+					<v:tag name="h{settings.content.settings.header.type -> v:or(alternative: record.header_layout) -> v:or(alternative: settings.header.type)}"
+						   class="{settings.content.settings.header.className}" hideIfEmpty="{settings.content.settings.header.hideIfEmpty -> v:or(alternative: 1)}">
+						{record.header -> f:format.raw()}
+					</v:tag>
+				</h3>
 
+				{settings.teasertext}
+			</div>
+		</div>
 	</f:section>
 </div>
+
+
+
