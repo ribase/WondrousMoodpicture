@@ -26,7 +26,7 @@
 	<f:section name="Main">
 		<div class="moodarea-with-menu">
 			<f:for each="{v:content.resources.fal(field: 'settings.images')}" as="image">
-				<f:image treatIdAsReference="TRUE" src="{image.id}" alt="{image.title}" title="{f:if(condition: image.description, then: '{image.title}: ', else: '{image.title}')}{image.description}" class="responsive-image" style="margin:auto;display:block; width:100%"  />
+				<f:image treatIdAsReference="TRUE" src="{image.id}" alt="{image.title}" title="{f:if(condition: image.description, then: '{image.title}: ', else: '{image.title}')}{image.description}" class="responsive-image" style="margin:auto;display:block; width:100%; height:100%;"  />
 			</f:for>
 			<div class="menu-from-moodarea">
 				<h3 class="headline">
