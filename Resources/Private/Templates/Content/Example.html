@@ -24,8 +24,7 @@
 	</f:section>
 
 	<f:section name="Main">
-		<div class="moodarea-with-menu">
-			<f:image treatIdAsReference="TRUE" src="{settings.images}" alt="{image.title}" title="{f:if(condition: image.description, then: '{image.title}: ', else: '{image.title}')}{image.description}" class="responsive-image" style="margin:auto;display:block; width:100%; height:100%;"  />
+		<div class="moodarea-with-menu" style="background-image: url({settings.images})">
 			<div class="menu-from-moodarea">
 				<h3>
 					<v:tag name="h{settings.content.settings.header.type -> v:or(alternative: record.header_layout) -> v:or(alternative: settings.header.type)}"
