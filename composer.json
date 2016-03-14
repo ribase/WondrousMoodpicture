@@ -1,0 +1,11 @@
+{
+    "name": "ribase/WondrousMoodpicture",
+    "type": "typo3-cms-extension",
+    "description": "todo",
+    "license": ["GPL-2.0+"],
+    "keywords": ["TYPO3 CMS", "WondrousMoodpicture"],
+    "support": {
+        "issues": "https://github.com/ribase/WondrousMoodpicture/"
+    },
+    "version": "0.0.1"
+}
