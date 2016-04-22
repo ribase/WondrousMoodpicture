@@ -7,5 +7,9 @@
     "support": {
         "issues": "https://github.com/ribase/WondrousMoodpicture/"
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "replace": {
+        "Vendor.WondrousMoodpicture": "self.version",
+        "ribase/WondrousMoodpicture": "self.version"
+    }
 }
