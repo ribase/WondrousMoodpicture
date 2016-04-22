@@ -5,5 +5,5 @@ if (!defined('TYPO3_MODE')) {
 
 TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'Moodpictures with Menu');
 
-\FluidTYPO3\Flux\Core::registerProviderExtensionKey('wondrousmoodpicture', 'Content');
+\FluidTYPO3\Flux\Core::registerProviderExtensionKey('Wondrous.Moodpicture', 'Content');
 

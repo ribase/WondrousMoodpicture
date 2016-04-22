@@ -1,5 +1,5 @@
-plugin.tx_wondrousmoodpicture.view {
-	templateRootPaths.default = EXT:wondrousmoodpicture/Resources/Private/Templates/
-	partialRootPaths.default = EXT:wondrousmoodpicture/Resources/Private/Partials/
-	layoutRootPaths.default = EXT:wondrousmoodpicture/Resources/Private/Layouts/
+plugin.tx_moodpicture.view {
+	templateRootPaths.default = EXT:moodpicture/Resources/Private/Templates/
+	partialRootPaths.default = EXT:moodpicture/Resources/Private/Partials/
+	layoutRootPaths.default = EXT:moodpicture/Resources/Private/Layouts/
 }
