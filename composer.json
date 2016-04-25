@@ -9,7 +9,7 @@
     },
     "version": "0.0.1",
     "replace": {
-        "Vendor.WondrousMoodpicture": "self.version",
-        "ribase/WondrousMoodpicture": "self.version"
+        "moodpicture": "self.version",
+        "Wondrous.Moodpicture": "self.version"
     }
 }
